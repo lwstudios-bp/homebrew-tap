@@ -4,22 +4,22 @@ cask "sigflare" do
 
   on_macos do
     on_intel do
-      sha256 "7d6b551f5b30b1b1037d1388c94d46fe007857d0a6e2eb9750630d22af107159"
+      sha256 "15b5f9969297e366f99b409596702113a6d824c595575d787af214f83abbd6e9"
       url "https://github.com/lwstudios-bp/sigflare/releases/download/v#{version}/sigflare_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "17dd45884866c6df11d1066dadc3bca705ee099aa169f17c509618fe69764d96"
+      sha256 "8b044e7b292211a3e8ab45a5604ca672f111e16f2354ac973f84b91d6f6610ca"
       url "https://github.com/lwstudios-bp/sigflare/releases/download/v#{version}/sigflare_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "623c22285e658903a9611dc280c57e023318612cff3804fc02a94f9c28c2446c"
+      sha256 "4d5a9c2166d8eb718f21ae626c37171a1b1eb75f4861ce961049898eed47db9d"
       url "https://github.com/lwstudios-bp/sigflare/releases/download/v#{version}/sigflare_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c76cb1b4df504c5cdff10e9ca802126d5084ad453526184b0bb8b3230be9eea1"
+      sha256 "f9e2155e498e702d17c82879289115e4ab393bbf46b4a83c69405f21d08985eb"
       url "https://github.com/lwstudios-bp/sigflare/releases/download/v#{version}/sigflare_#{version}_linux_arm64.tar.gz"
     end
   end
